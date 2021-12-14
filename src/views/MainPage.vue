@@ -1,5 +1,5 @@
 <template>
-  <div></div>
+  <div>メインページ</div>
 </template>
 
 <script lang="ts">
