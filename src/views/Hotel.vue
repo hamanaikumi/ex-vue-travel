@@ -394,7 +394,7 @@ export default class Hotel extends Vue {
     this.mapUrl = [];
     for (let i = 0; i < this.showHotels.length; i++) {
       this.mapUrl.push(
-        `http://maps.google.co.jp/maps?q=${this.showHotels[i].hotelName}&output=embed&t=m&z=16&hl=ja`
+        `https://maps.google.co.jp/maps?q=${this.showHotels[i].hotelName}&output=embed&t=m&z=16&hl=ja`
       );
     }
   }
